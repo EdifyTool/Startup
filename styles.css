@@ -894,10 +894,11 @@ main {
 }
 
 .logo-img {
-    height: 1em;       /* same height as text */
-    width: auto;       /* keep aspect ratio */
-    vertical-align: middle; /* align with text if needed */
+    height: 45px;   /* nav-friendly size */
+    width: 45px;    /* keep square shape for 1:1 logos */
+    object-fit: contain; /* ensures it doesn’t stretch */
 }
+
 
 @supports (animation-timeline: scroll()) {
     .feature {
