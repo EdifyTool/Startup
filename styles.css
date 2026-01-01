@@ -6,15 +6,15 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
-    background-color: #fafaf9;
-    color: #1e293b;
+    background-color: #000000;
+    color: #e5e5e5;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
 
 .nav {
-    background-color: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
+    background-color: #000000;
+    border-bottom: 1px solid #1a1a1a;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -32,13 +32,13 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .logo:hover {
-    color: #475569;
+    color: #a3a3a3;
 }
 
 .nav-links {
@@ -48,13 +48,13 @@ body {
 }
 
 .nav-link {
-    color: #64748b;
+    color: #737373;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .nav-link:hover {
-    color: #1e293b;
+    color: #e5e5e5;
 }
 
 .btn {
@@ -70,22 +70,22 @@ body {
 }
 
 .btn-primary {
-    background-color: #1e293b;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .btn-primary:hover {
-    background-color: #334155;
+    background-color: #d4d4d4;
 }
 
 .btn-secondary {
     background-color: transparent;
-    color: #1e293b;
-    border: 1px solid #cbd5e1;
+    color: #ffffff;
+    border: 1px solid #262626;
 }
 
 .btn-secondary:hover {
-    border-color: #94a3b8;
+    border-color: #404040;
 }
 
 main {
@@ -102,14 +102,14 @@ main {
 .hero-title {
     font-size: 3rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #ffffff;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
 
 .hero-description {
     font-size: 1.25rem;
-    color: #64748b;
+    color: #a3a3a3;
     margin-bottom: 3rem;
     max-width: 42rem;
     margin-left: auto;
@@ -125,7 +125,7 @@ main {
 
 .features {
     padding: 6rem 0;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #1a1a1a;
     display: grid;
     gap: 4rem;
 }
@@ -139,37 +139,37 @@ main {
 .feature-title {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #ffffff;
 }
 
 .feature-description {
     font-size: 1.125rem;
-    color: #64748b;
+    color: #a3a3a3;
     line-height: 1.8;
 }
 
 .cta {
     padding: 6rem 0;
     text-align: center;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #1a1a1a;
 }
 
 .cta-title {
     font-size: 2rem;
     font-weight: 600;
-    color: #1e293b;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
 .cta-description {
     font-size: 1.125rem;
-    color: #64748b;
+    color: #a3a3a3;
     margin-bottom: 2rem;
 }
 
 .footer {
-    border-top: 1px solid #e2e8f0;
-    background-color: #ffffff;
+    border-top: 1px solid #1a1a1a;
+    background-color: #000000;
     margin-top: 6rem;
 }
 
@@ -188,17 +188,17 @@ main {
 }
 
 .footer-link {
-    color: #64748b;
+    color: #737373;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 .footer-link:hover {
-    color: #1e293b;
+    color: #e5e5e5;
 }
 
 .footer-copyright {
-    color: #94a3b8;
+    color: #525252;
     font-size: 0.875rem;
 }
 
