@@ -893,6 +893,12 @@ main {
     background: linear-gradient(180deg, rgba(139, 92, 246, 0.7), rgba(59, 130, 246, 0.7));
 }
 
+.logo-img {
+    height: 1em;       /* same height as text */
+    width: auto;       /* keep aspect ratio */
+    vertical-align: middle; /* align with text if needed */
+}
+
 @supports (animation-timeline: scroll()) {
     .feature {
         animation: fadeInUp linear both;
